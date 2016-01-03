@@ -16,6 +16,12 @@
     width: 100%;
     min-height: 105px;
   }
+  #musicBox{
+    /*float: right;*/
+    position: fixed;
+    bottom: 10%;
+    left: 5%;
+  }
   .header>div{
     width: 80%;
     margin: 0 auto;

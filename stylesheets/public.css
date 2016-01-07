@@ -75,6 +75,33 @@
   .right{
     width: 80%;
     overflow: hidden;
+    position: relative;
+  }
+  /*changeToAbsoluteForSmoooth*/
+  .right>div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    
+    transition: all ease-out 0.2s;
+  }
+  .right>div:target{
+    opacity: 1;
+    filter: alpha(opacity=0);
+    z-index: 1000;
+  }
+  .right>div:not(:target){
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: 0;
+  }
+  #profile{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    z-index: 1;
   }
   .right>div{
     width: 100%;

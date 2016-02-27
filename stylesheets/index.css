@@ -92,6 +92,7 @@
     background: rgba(179,96,99,.7);
   }
   li:nth-child(5) {
+    z-index: 2;
     /*background: #923CA0;*/
     background: rgba(146, 60, 160, 0.8);
   }

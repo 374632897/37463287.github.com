@@ -6,6 +6,12 @@
   <link rel="stylesheet" href="./stylesheets/index.css" />
   <link rel="shortcut icon" href="./images/avatar.png" type="image/x-icon" />
   <meta name='viewport' content = 'width = device-width, initial-scale = 1.0, user-scalable = no'>
+  <script type="text/javascript" src="https://api.thinkpage.cn/v3/weather/now.json?location=beijing&ts=1443079775&ttl=30&uid=UEBECE1B94&sig=engeyelgytvk3etz&callback=showWeather"></script>
+  <script>
+  function showWeather(msg) {
+    console.log(msg);
+  }
+  </script>
   <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"> -->
 </head>
 <body>

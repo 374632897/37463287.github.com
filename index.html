@@ -7,14 +7,13 @@
   <link rel="shortcut icon" href="./images/avatar.png" type="image/x-icon" />
   <meta name='viewport' content = 'width = device-width, initial-scale = 1.0, user-scalable = no'>
   <script>
-  var xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      console.log(xhr);
-    }
-  }
-  xhr.open('get', 'https://api.thinkpage.cn/v3/weather/now.json?key=engeyelgytvk3etz&location=beijing&language=zh-Hans&unit=c', true);
-  xhr.send();
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?205717a70ff6991e70519730185565f4";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
   </script>
 </head>
 <body>
@@ -33,5 +32,6 @@
     <li><a href="">日志杂谈</a></li>
     <li><a href="">联系方式</a></li>
   </ul>
+
 </body>
 </html>

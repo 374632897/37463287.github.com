@@ -6,16 +6,6 @@
   <link rel="stylesheet" href="./stylesheets/index.css" />
   <link rel="shortcut icon" href="./images/avatar.png" type="image/x-icon" />
   <meta name='viewport' content = 'width = device-width, initial-scale = 1.0, user-scalable = no'>
-  <script>
-  var xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      console.log(xhr);
-    }
-  }
-  xhr.open('get', 'https://api.thinkpage.cn/v3/weather/now.json?key=engeyelgytvk3etz&location=beijing&language=zh-Hans&unit=c', true);
-  xhr.send();
-  </script>
 </head>
 <body>
   <ul>

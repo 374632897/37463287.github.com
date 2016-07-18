@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2016-07-18 07:15:31
 * @Last Modified by:   Jiang Guoxi
-* @Last Modified time: 2016-07-18 18:19:56
+* @Last Modified time: 2016-07-18 18:29:48
 */
 html, body {
   width: 100%; height: 100%;
@@ -10,6 +10,7 @@ html, body {
 }
 body {
   padding: 50px 100px;
+  overflow: hidden;
   background: #eee;
   box-sizing: border-box;
   font-family: 'Segoe UI', 'SimHei', 'Microsoft Yahei';
@@ -22,6 +23,8 @@ h1 {
 }
 .posts {
   width: 100%;
+  height: 100%;
+
   border-radius: 2px;
   box-shadow: rgba(0, 0, 0, .6) 2px 3px 40px;
   padding: 10px 40px;
@@ -35,7 +38,6 @@ h1 {
     /*padding-top: 150px;*/
   }
   .posts {
-    height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
   }

@@ -2,13 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About me</title>
+  <title>About Me</title>
+  <meta name = 'viewport' content = 'width=device-width,initial-scale=1.0,user-scalable=no'>
+  <style>
+    html, body {
+      margin: 0;padding: 0;font-family: 'Segoe UI', 'SimHei', 'MicroSoft Yahei';
+      width: 100%;height: 100%;
+    }
+    body {
+      padding: 50px;
+      box-sizing: border-box;
+      background: #eee;
+    }
+    .profile {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      overflow-x: hidden;
+      overflow-y: auto;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, .6) 2px 3px 6px;
+      padding: 10px;
+    }
+    dd {
+      line-height: 24px;
+      width: 90%;
+    }
+    dd + dt {
+      margin-top: 20px;
+    }
+    @media screen and (max-width: 468px) {
+      dd {
+        margin-left: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h2>关于我</h2>
   <div class="profile">
+    <h2>关于我</h2>
+
     <dl>
-      <dt>姓名</dt>
+      <dt>姓名: </dt>
       <dd>auqahko</dd>
       <dt>个人简介：</dt>
       <dd>

@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2016-07-18 07:15:31
-* @Last Modified by:   Administrator
-* @Last Modified time: 2016-07-18 07:52:21
+* @Last Modified by:   Jiang Guoxi
+* @Last Modified time: 2016-07-18 18:19:56
 */
 html, body {
   width: 100%; height: 100%;
@@ -27,4 +27,16 @@ h1 {
   padding: 10px 40px;
   box-sizing: border-box;
   margin-bottom: 100px;
+}
+@media screen and (max-width: 468px) {
+  body {
+    padding: 20px;
+    overflow: hidden;
+    /*padding-top: 150px;*/
+  }
+  .posts {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
 }

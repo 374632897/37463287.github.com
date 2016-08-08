@@ -8,6 +8,9 @@ html, body, h1, h2, h3, h4, h5, h6, dt, dd, p {
 a {
   color: #233; text-decoration: none;
 }
+a:hover {
+  color: #f66;
+}
 .pull-left {
   float: left;
 }
@@ -49,13 +52,15 @@ img {
 body {
   padding: 20px 0;
   background: #eee;
+  border: 1px solid #d7d7d7;
+  height: auto;
 }
 @media screen and (min-width: 1024px) {
   body {
     width: 1024px;
     border-radius: 2px;
     box-shadow: rgba(0, 0, 0, .6) 2px 3px 6px;
-    margin: 0 auto;
+    margin: 100px auto;
   }
 }
 h1 {
@@ -133,6 +138,9 @@ dd ul {
 }
 
 @media print {
+  body {
+    border: none;
+  }
   img, dt, .shadow {
     box-shadow: none;
   }

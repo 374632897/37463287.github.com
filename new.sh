@@ -2,7 +2,6 @@
 POST_PATH='./chatter/posts/';
 title=$1;
 path=$1;
-# 这里为什么会这样 -n应该是判断第二个参数不为空啊
 if [ ! -z $2 ]; then
   echo '传了第二个参数'
   path=$2;

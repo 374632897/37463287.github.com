@@ -39,7 +39,3 @@ if [ -f $filePath ]; then
 else
   doPost $filePath;
 fi;
-
-
-
-

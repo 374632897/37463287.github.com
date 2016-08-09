@@ -1,5 +1,5 @@
 #!/bin/bash
-dm=':smirk';
+dm=':smirk:';
 if [ ! -z $1 ]; then
   dm=$1;
 fi;

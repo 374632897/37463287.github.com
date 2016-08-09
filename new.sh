@@ -6,7 +6,6 @@ if [ ! -z $2 ]; then
   echo '传了第二个参数'
   path=$2;
 fi;
-# 结尾的EOF不能有缩进， EOF里的内容如果有缩进， 也会写进去
 doPost () {
   echo 'write';
   cat > "$1" <<EOF

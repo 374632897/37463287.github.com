@@ -1,0 +1,22 @@
+{
+  "name": "374632897.github.io",
+  "version": "1.0.0",
+  "description": "[我的个人主页](http://374632897.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/374632897/374632897.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/374632897/374632897.github.io/issues"
+  },
+  "homepage": "https://github.com/374632897/374632897.github.io#readme",
+  "dependencies": {
+    "marked": "^0.3.6"
+  }
+}

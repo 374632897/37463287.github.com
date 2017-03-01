@@ -33,36 +33,11 @@ function handleDir (files) {
         }
         fs.writeFile(path.join(DEST, basename + '.html'), getHtml({ title: basename, content: html }));
       });
-      // p.writeFile(path.join(DEST, basename + '.html', data.toString()))
     });
   });
 }
 
-// fs.readdir(SOURCE, function (err, files) {
-//   if (err) return console.error(err, err.stack);
-//   files.forEach(function (item) {
-//     var basename = path.parse(item).name;
-//     // fs.
-//     // fs.writeFile(path.join(DEST, basename + '.html'))
-//     // console.log(basename);
-//   });
-// });
-
-// function readdir () {}
-
-// console.log(path.join(SOURCE, './测试.md'));
-// // console.log(fs.readFileSync(path.join(SOURCE, './测试.md')).toString());
-// marked(fs.readFileSync(path.join(SOURCE, './测试.md')).toString(), function (err, data) {
-//   if (err) {
-//     console.log(err);
-//     console.log(err.stack);
-//   }
-//   console.log(data);
-//   // console.log(err, data);
-// });
-
 function getHtml (data) {
-  console.log(data);
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,5 +50,3 @@ function getHtml (data) {
 </html>
   `
 }
-
-// console.log(Promise);

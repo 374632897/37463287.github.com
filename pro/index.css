@@ -55,6 +55,9 @@ body {
   border: 1px solid #d7d7d7;
   height: auto;
 }
+body.text-indent p {
+  text-indent: 2em;
+}
 @media screen and (min-width: 1024px) {
   body {
     width: 1024px;

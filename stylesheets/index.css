@@ -8,9 +8,6 @@
   body{
     background: #42e4cc;
   }
-  body.index {
-    padding: 0 10%;
-  }
   body.post {
     padding-top: 20px;
     padding-bottom: 10px;

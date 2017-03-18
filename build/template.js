@@ -4,7 +4,7 @@ module.exports = function getHtml (data) {
 <head>
   <meta charset="UTF-8">
   <title>${data.title}</title>
-  <link rel="shortcut icon" href="./images/avatar.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="../images/avatar.png" type="image/x-icon" />
   <meta name='viewport' content = 'width = device-width, initial-scale = 1.0, user-scalable = no'>
   <meta property="wb:webmaster" content="5b98c97d88ede355" />
   <meta name="author" content="前端小虾蟹" />

@@ -16,7 +16,7 @@ const BASE_DIR = join(__dirname, '../my-trouble');
 const SOURCE   = join(BASE_DIR, './source');
 const DEST     = join(BASE_DIR, './posts');
 const INDEX    = join(BASE_DIR, './index.html');
-const HOST     = 'https://noteawesome.com/my-trouble/';
+const HOST     = 'https://noteawesome.com/my-trouble/posts/';
 
 function logError (err) { if (err) console.error(err) }
 

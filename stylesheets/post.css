@@ -13,7 +13,7 @@ body {
   overflow: hidden;
   background: #eee;
   box-sizing: border-box;
-  font-family: 'Segoe UI', 'SimHei', 'Microsoft Yahei';
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', 'SimHei', 'Microsoft Yahei';
 }
 .center {
   text-align: center;

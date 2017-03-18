@@ -15,7 +15,7 @@ doPost () {
   <meta charset="UTF-8">
   <title>${title}</title>
   <meta name = 'viewport' content = 'width=device-width,initial-scale=1.0,user-scalable=no'>
-  <link rel="stylesheet" href="../css/posts.css">
+  <link rel="stylesheet" href="../../stylesheets/post.css">
   <meta name="author" content="前端小虾蟹" />
   <meta name="keywords" content="前端小虾蟹, ${title}, 短文" />
   <meta name="description" content="${title}, 短文" />

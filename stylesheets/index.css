@@ -1,5 +1,5 @@
   html, body, ul, li, a{
-    margin: 0; padding: 0; font: normal  22px/30px 'SimHei'; 
+    margin: 0; padding: 0; font: normal  22px/30px 'SimHei';
   }
   html, body{ width: 100%; height: 100%; position: relative;}
   body{
@@ -124,4 +124,15 @@
   }
   li:nth-child(9):hover {
     background: rgba(255, 102, 102, 1);
+  }
+  footer {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #233
   }

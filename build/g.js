@@ -38,7 +38,7 @@ function handleDir (files) {
 
 function getIndexes (ary) {
   return ary.map(item => {
-    return `<li alt = '${item}' title = '${item}''><a href = "${HOST + item}" >${item}</a></li>`;
+    return `<li alt = '${item}' title = '${item}''><a href = "${HOST + item}.html" >${item}</a></li>`;
   }).join('\r\n\t');
 }
 function generateIndexs (ary) {

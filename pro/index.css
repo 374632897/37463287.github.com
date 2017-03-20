@@ -186,6 +186,15 @@ dd ul {
   }
 
 }
+.placeholder {
+  position: absolute;
+  z-index: -1;
+  color: transparent;
+  text-indent: -10000em;
+  width: 0;
+  height: 0;
+  line-height: 0;
+}
 @media screen and (max-width: 468px) {
   h2 + p span:nth-last-child(1) {
     border-left: 0;

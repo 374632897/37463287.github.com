@@ -53,8 +53,3 @@ h1 {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 1366px) {
-  body {
-    padding: 100px 400px;
-  }
-}

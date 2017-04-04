@@ -166,7 +166,7 @@
   }
   body.my-trouble h2 ~ p {
     line-height: 1.7;
-    color: #5d155a;
+    color: #20201b;
   }
   body.my-trouble p ~ h2 {
     margin-top: 84px;

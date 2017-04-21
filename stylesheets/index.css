@@ -175,4 +175,11 @@
   body.my-trouble {
     padding: 7%;
   }
+  code {
+    max-width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-wrap;
+    text-align: left;
+  }
 

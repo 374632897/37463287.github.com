@@ -146,6 +146,7 @@
   .post-list {
     max-width: 600px;
     margin: 0 auto;
+    width: 80%;
   }
   .post-list li {
     height: 40px;
@@ -181,5 +182,10 @@
     word-break: break-all;
     white-space: pre-wrap;
     text-align: left;
+  }
+  body.my-trouble-index {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
   }
 

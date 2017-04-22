@@ -68,7 +68,7 @@ exports.getTrouble = function getTroubleIndex (content) {
     }
   </style>
 </head>
-<body class = 'post'>
+<body class = 'post my-trouble-index'>
   <ul class = 'post-list'>
     ${content}
   </ul>

@@ -188,4 +188,6 @@
     align-items: center;
     flex-wrap: wrap;
   }
-
+  a[href='#'] {
+    cursor: default;
+  }
